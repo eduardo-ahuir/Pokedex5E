@@ -9,7 +9,7 @@ local file = require "utils.file"
 local M = {}
 if sys.get_engine_info().is_debug then
 	print("Using FakemonPackages/develop")
-	GITHUB_URL = "https://raw.githubusercontent.com/Jerakin/FakemonPackages/develop"
+	GITHUB_URL = "https://github.com/eduardo-ahuir/FakemonPackages"
 else
 	GITHUB_URL = "https://raw.githubusercontent.com/Jerakin/FakemonPackages/master"
 end
